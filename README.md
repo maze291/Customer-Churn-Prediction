@@ -99,7 +99,7 @@ The final tuned LightGBM model achieved:
   - True Negatives: 553 (correctly identified non-churners)
   - False Negatives: 14 (missed churners)
 
-![ROC Curve](https://github.com/username/Customer-Churn-Prediction/raw/main/reports/roc_curve.png)
+![ROC Curve](https://github.com/maze291/Customer-Churn-Prediction/blob/main/reports/roc_curve.png)
 
 ## 🛠️ Technologies Used
 
