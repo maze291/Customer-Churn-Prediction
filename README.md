@@ -1,6 +1,6 @@
 # Customer Churn Prediction
 
-![Churn Prediction](https://github.com/username/Customer-Churn-Prediction/raw/main/reports/churn_banner.png)
+![image](https://github.com/user-attachments/assets/fe325a65-0803-4217-98be-ad677b376047)
 
 ## 📊 Project Overview
 
