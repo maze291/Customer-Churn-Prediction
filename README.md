@@ -1,5 +1,7 @@
 # Customer Churn Prediction
 
+![Churn Prediction](https://github.com/username/Customer-Churn-Prediction/raw/main/reports/churn_banner.png)
+
 ## 📊 Project Overview
 
 This project leverages machine learning to predict customer churn in a telecommunications company. By identifying customers at high risk of churning, companies can proactively implement targeted retention strategies before customers leave, resulting in significant revenue protection.
@@ -24,7 +26,7 @@ Our model successfully identifies **85.26% of customers who will churn** with a 
 4. **Eve_Charge_per_Minute** (Importance: 135.0) - Evening rate plans heavily influence retention
 5. **International calling patterns** (Multiple features) - Usage patterns for international service strongly predict churn
 
-![Feature Importance](reports/feature_importance.png)
+![Feature Importance](https://github.com/username/Customer-Churn-Prediction/raw/main/reports/feature_importance.png)
 
 ### Business Recommendations
 
@@ -72,14 +74,10 @@ Evaluated multiple classification algorithms with appropriate handling of class 
 | LightGBM | 0.901 | - |
 | Tuned LightGBM | 0.894 | 0.921 |
 
-![Model Comparison](reports/model_comparison.png)
-
 ### 4. Hyperparameter Tuning & Threshold Optimization
 - Performed randomized search CV for optimal hyperparameters
 - Used an adjusted classification threshold (0.13) to maximize F1 score
 - Balanced precision and recall for business objectives
-
-![Threshold Optimization](reports/threshold_optimization.png)
 
 ### 5. Comprehensive Evaluation
 - Generated standard classification metrics
@@ -101,8 +99,7 @@ The final tuned LightGBM model achieved:
   - True Negatives: 553 (correctly identified non-churners)
   - False Negatives: 14 (missed churners)
 
-![ROC Curve](reports/roc_curve.png)
-![Confusion Matrix](reports/confusion_matrix.png)
+![ROC Curve](https://github.com/username/Customer-Churn-Prediction/raw/main/reports/roc_curve.png)
 
 ## 🛠️ Technologies Used
 
@@ -113,22 +110,6 @@ The final tuned LightGBM model achieved:
 - **matplotlib, seaborn** - Data visualization
 - **SHAP** - Model interpretability
 
-## 📁 Project Structure
-
-```
-Customer-Churn-Prediction/
-├── data/
-│   ├── raw/                    # Original data
-│   └── processed/              # Cleaned and engineered features
-├── models/                     # Saved model files
-├── notebooks/
-│   ├── 1_Exploratory_Data_Analysis.ipynb
-│   ├── 2_Feature_Engineering.ipynb
-│   └── 3_Model_Building.ipynb
-├── reports/                    # Generated reports and visuals
-├── README.md                   # Project description (this file)
-└── requirements.txt            # Dependencies
-```
 
 ## 🚀 Installation and Usage
 
@@ -136,12 +117,12 @@ Customer-Churn-Prediction/
 
 ```bash
 # Clone the repository
-git clone https://github.com/maze291/Customer-Churn-Prediction.git
+git clone https://github.com/username/Customer-Churn-Prediction.git
 
 # Navigate to the project directory
 cd Customer-Churn-Prediction
 
-# Create and activate a virtual environment (optional but recommended)
+# Create and activate a virtual environment (optional)
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 
@@ -194,7 +175,7 @@ print(f"Churn prediction: {'Yes' if churn_predicted[0] else 'No'}")
 
 ## 🧑‍💻 About the Author
 
-Connect with me on [LinkedIn](https://www.linkedin.com/in/mohammed-abdul-azeem-4379a630a/) or check out my other projects on [GitHub](https://github.com/maze291/).
+Connect with me on [LinkedIn](https://www.linkedin.com/in/mohammed-abdul-azeem-4379a630a/) or keep in touch with any other projects in progress [GitHub](https://github.com/maze291/).
 
 ## 📄 License
 
