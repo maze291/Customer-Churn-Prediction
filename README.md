@@ -87,9 +87,9 @@ Evaluated multiple classification algorithms with appropriate handling of class 
 
 The final tuned LightGBM model achieved:
 
-- **Accuracy**: 95.05% #This is the overall percentage of correct predictions
-- **Precision**: 81.00% #This is when the model flags someone as a churner (likely to leave), it was correct 81% of the time. In other words, 81% of those predicted as churners actually ended up being churners.
-- **Recall**: 85.26% #Out of all the actual churners, the model correctly identified 85.26% of them. This tells us how good the model is at catching churners.
+- **Accuracy**: 95.05% #This is the overall percentage of correct predictions across both groups(churners and non-churners)
+- **Precision**: 81.00% #This is when the model flags someone as a churner (likely to leave), it was correct 81% of the time. In other words, 81% of those predicted as churners actually ended up being churners. Only looks at the predictions for churners unlike accuracy. False Positives (FP) or Incorrectly predicted churners affect precision.
+- **Recall**: 85.26% #Out of all the actual churners, the model correctly identified 85.26% of them. This tells us how good the model is at catching churners. False Negatives (FN) or Missed churners, affect recall.
 - **F1 Score**: 83.08% #This is a balance between precision and recall. It gives a single score that shows how well the model does in terms of both catching churners and being accurate when it does so.
 - **ROC AUC**: 0.921 #This metric shows how well the model can distinguish between churners and non-churners. Scale is also from 0 to 1.
 - **Confusion Matrix**: #How well the model is classifying data into the correct categories
