@@ -105,6 +105,7 @@ The final tuned LightGBM model achieved:
 - **Python 3.9**
 - **pandas, numpy** - Data manipulation and analysis
 - **scikit-learn** - ML models, preprocessing, evaluation
+- **Logistic Regression, Random Forest Classifier** - Traditional classification models for baseline and interpretability
 - **XGBoost, LightGBM** - Advanced gradient boosting implementations
 - **matplotlib, seaborn** - Data visualization
 - **SHAP** - Model interpretability
