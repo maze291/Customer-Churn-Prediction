@@ -1,0 +1,105 @@
+{
+    "model_version": "churn_model_20250307_171213",
+    "model_type": "Tuned LightGBM",
+    "creation_date": "2025-03-07 17:12:42",
+    "training_samples": 2132,
+    "features": [
+        "Total_Charge",
+        "High_Customer_Service_Calls",
+        "Customer service calls",
+        "Total_Minutes",
+        "Total day minutes",
+        "Total day charge",
+        "International plan_No",
+        "International plan_Yes",
+        "Service_Calls_per_Month",
+        "Has_International_Plan",
+        "State_Churn_Rate",
+        "Intl_Calls_per_Minute",
+        "Total eve minutes",
+        "Day_Calls_per_Minute",
+        "Day_Minutes_Pct",
+        "Total intl minutes",
+        "Total intl calls",
+        "Eve_Calls_per_Minute",
+        "Total intl charge",
+        "Total eve charge",
+        "International_to_Day_Ratio",
+        "Night_Charge_per_Minute",
+        "Eve_Charge_per_Minute",
+        "Day_to_Eve_Ratio",
+        "Intl_Minutes_Pct",
+        "Account length",
+        "Eve_Minutes_Pct",
+        "Intl_Charge_per_Minute",
+        "Night_Minutes_Pct",
+        "Minutes_Variability"
+    ],
+    "top_features": {
+        "Feature": {
+            "0": "Total_Charge",
+            "25": "Account length",
+            "21": "Night_Charge_per_Minute",
+            "22": "Eve_Charge_per_Minute",
+            "17": "Eve_Calls_per_Minute",
+            "11": "Intl_Calls_per_Minute",
+            "10": "State_Churn_Rate",
+            "13": "Day_Calls_per_Minute",
+            "27": "Intl_Charge_per_Minute",
+            "15": "Total intl minutes"
+        },
+        "Importance": {
+            "0": 227,
+            "25": 148,
+            "21": 144,
+            "22": 135,
+            "17": 128,
+            "11": 123,
+            "10": 114,
+            "13": 114,
+            "27": 109,
+            "15": 107
+        }
+    },
+    "threshold": 0.13,
+    "hyperparameters": {
+        "subsample": 0.9,
+        "reg_lambda": 0,
+        "reg_alpha": 0.1,
+        "num_leaves": 31,
+        "n_estimators": 200,
+        "min_child_samples": 10,
+        "max_depth": 5,
+        "learning_rate": 0.2,
+        "colsample_bytree": 0.8
+    },
+    "performance": {
+        "training": {
+            "accuracy": 1.0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1_score": 1.0,
+            "roc_auc": 1.0,
+            "pr_auc": 1.0,
+            "threshold": 0.13
+        },
+        "validation": {
+            "accuracy": 0.949438202247191,
+            "precision": 0.8591549295774648,
+            "recall": 0.782051282051282,
+            "f1_score": 0.8187919463087249,
+            "roc_auc": 0.8937528115159694,
+            "pr_auc": 0.7680234750076166,
+            "threshold": 0.13
+        },
+        "test": {
+            "accuracy": 0.9505247376311844,
+            "precision": 0.81,
+            "recall": 0.8526315789473684,
+            "f1_score": 0.8307692307692308,
+            "roc_auc": 0.9209790209790211,
+            "pr_auc": 0.7818035549065241,
+            "threshold": 0.13
+        }
+    }
+}
