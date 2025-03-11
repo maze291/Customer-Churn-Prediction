@@ -26,7 +26,7 @@ Our model successfully identifies **85.26% of customers who will churn** with a 
 4. **Eve_Charge_per_Minute** (Importance: 135.0) - Evening rate plans heavily influence retention
 5. **International calling patterns** (Multiple features) - Usage patterns for international service strongly predict churn
 
-![Feature Importance](https://github.com/username/Customer-Churn-Prediction/raw/main/reports/feature_importance.png)
+![Feature Importance](https://github.com/maze291/Customer-Churn-Prediction/blob/main/reports/feature_importance.png)
 
 ### Business Recommendations
 
